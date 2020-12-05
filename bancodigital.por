@@ -55,10 +55,21 @@ programa
 		 			
 		 		}
 		 	}
-		 	senao se (opcao == 2){
-		 		escreva("Digite o valor de crédito que deseja:")
-		 	 
-		 	}
+
+		 	para (inteiro x=0; x< 39; x++)
+				{
+					se(saldoconta[x] == 'M'){	
+
+						se(notas[x] == 0)
+							se (situacao[x] == 0){
+								escreva(+movimentacao[x]+"\tNome: "+[x]+"\tSexo: "+saldoConta[x])
+							}
+						}
+						senao{
+							escreva( "+movimentacao[x]+"\tNome: "+alunos[x]+"\tSexo: "+saldoConta[x]+"\tNota:" +notas[x]+"\tSituação:"+situacao[x])	
+						}
+					}
+
 		    
  	    } 	 
 		
@@ -69,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1734; 
+ * @POSICAO-CURSOR = 2018; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
