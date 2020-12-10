@@ -8,6 +8,11 @@ public class Cadloja {
 		
 		Scanner leia = new Scanner(System.in);
 		
+		Scanner leia = new Scanner(System.in);
+		String codigos[] = new String[10];
+		String produtos[] = {"Shorts Rugby", "Camisetas personalizadas de ídolos", "Protetor Profissional de cabeça" ,"Bolas de Rugby Personalisadas", "Chuteiras", "Camisetas autografadas","Protetor Bucal", "Pipas personalisados com times de Rugby", "livros sobre o tema", "Chaveiros personalisados" };
+		double precoUnitarios[] = {30,200,25,65,100,300,25,10,40,40};
+		int estoque[] = new int[10];
 			
 		linhaDetalhe();
 		System.out.println("RUGBY Tackcle");
